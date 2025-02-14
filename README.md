@@ -26,15 +26,24 @@ A robust RESTful API for managing movie databases with advanced query capabiliti
 1. **Clone Repository**
    ```bash
    git clone https://github.com/M-Karakit/movie-library-api.git
+   ```
+
+   ```bash
    cd movie-library-api
+   ```
 
 2. **Install Dependencies:**
+    ```bash
     composer install
+    ```
 
 3. **Set Up Environment:**
+    ```bash
     cp .env.example .env
+    ```
 
     Open the .env file and add your database configuration:
+    ```bash
         DB_CONNECTION=mysql
         DB_HOST=127.0.0.1
         DB_PORT=3306
@@ -44,12 +53,18 @@ A robust RESTful API for managing movie databases with advanced query capabiliti
 
 4. **📂 Run Migrations** 
     To set up the database tables, run:
+
+    ```bash
     php artisan migrate
+    ```
 
 
 5. **Start the Local Server**
     To run the local server, use:
+
+    ```bash
     php artisan serve
+    ```
 
 
 
@@ -64,6 +79,11 @@ A robust RESTful API for managing movie databases with advanced query capabiliti
 
 &nbsp;&nbsp;&nbsp;&nbsp;📅 Sorting.  
 &nbsp;&nbsp;&nbsp;&nbsp;Sort movies by **release year** in **ascending** or **descending** order.  
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
       
 
